@@ -1,0 +1,41 @@
+body {
+  color: $main-txt-color;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+
+  background-color: $main-bg-color;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: $main-txt-color;
+  text-decoration: none;
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside { display: block; }
+
+input::-ms-clear { display: none; }
+button { cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+
+  border: 0;
+}
+ul li { list-style: none; }
+img { vertical-align: top; }
