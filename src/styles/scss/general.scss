@@ -1,10 +1,7 @@
 body {
   color: $main-txt-color;
-  font-weight: 400;
-  font-size: 18px;
+  @include text (1.125rem, 1.5, 400);
   font-family: Roboto, sans-serif;
-  line-height: 1.5;
-
   background-color: $main-bg-color;
 }
 
@@ -27,15 +24,123 @@ a:focus {
 nav,
 footer,
 header,
-aside { display: block; }
+aside {
+  display: block;
+}
 
-input::-ms-clear { display: none; }
-button { cursor: pointer; }
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
 
 button::-moz-focus-inner {
   padding: 0;
 
   border: 0;
 }
-ul li { list-style: none; }
-img { vertical-align: top; }
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+@mixin text ($fz, $lh, $fw) {
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+@mixin border {
+  background-color: inherit;
+  border: 0.125rem solid #CACACA;
+  border-radius: 0.1875rem;
+}
+
+h1 {
+  @include text (3.75rem, 5.625rem, 700);
+}
+
+h2 {
+  @include text (2.375rem, 3.5625rem, 700);
+}
+
+h3 {
+  @include text (1.5rem, 2.8125rem, 400);
+}
+
+h4 {
+  @include text (1.125rem, 1.6875rem, 700);
+}
+
+@media (max-width: 1239.98px) {
+  h1 {
+    @include text (1.875rem, 2.8125rem, 700);
+  }
+
+  h2 {
+    @include text (1.125rem, 1.6875rem, 700);
+  }
+
+  h3 {
+    @include text (1rem, 1.5rem, 700);
+  }
+
+  h4 {
+    @include text (1.125rem, 1.5rem, 700);
+  }
+}
+
+.tx-up {
+  text-transform: uppercase;
+}
+
+.tx-capitalize {
+  text-transform: capitalize;
+}
+
+.tx-7 {
+  @include text (4rem, 6rem, 400);
+}
+
+.tx-6 {
+  @include text (3.5rem, 5.25rem, 400);
+}
+
+.tx-5 {
+  @include text (3rem, 4.5rem, 400);
+}
+
+.tx-4 {
+  @include text (2.5rem, 3.75rem, 400);
+}
+
+.tx-3 {
+  @include text (2rem, 3rem, 400);
+}
+
+.tx-2 {
+  @include text (1.5rem, 2.25rem, 400);
+}
+
+.tx-1 {
+  @include text (1rem, 1.5rem, 400);
+}
+
+.tx-sm {
+  @include text (0.8rem, 1.1875rem, 400);
+}
+
+.tx-sm-700 {
+  @include text (0.8rem, 1.1875rem, 700);
+}
+
+.btn {
+  border-radius: 0.3125rem;
+  padding: 1.25rem 1.875rem;
+}
