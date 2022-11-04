@@ -220,11 +220,13 @@ h4 {
   background-position: center;
   background-size: cover;
 }
-.header .wrapper {
+.header .head {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.header .wrapper .head {
-  width: calc(100% - 40px);
+.header .head .wrapper {
   height: 25px;
   position: absolute;
   top: 25px;
@@ -232,60 +234,64 @@ h4 {
   align-items: center;
   justify-content: space-between;
 }
-.header .wrapper .head .nav-page {
+.header .head .wrapper .nav-page {
   display: flex;
   align-items: center;
 }
-.header .wrapper .head .nav-page .logo {
+.header .head .wrapper .nav-page .logo {
   display: flex;
   align-items: center;
 }
-.header .wrapper .head .nav-page .logo .logo-icon {
+.header .head .wrapper .nav-page .logo .logo-icon {
   width: 24px;
   height: 24px;
   margin-right: 16px;
 }
-.header .wrapper .head .nav-page .logo .logo-name {
+.header .head .wrapper .nav-page .logo .logo-name {
   margin-right: 90px;
 }
-.header .wrapper .head .nav-page .nav-list {
+.header .head .wrapper .nav-page .nav-list {
+  position: relative;
+  top: -3px;
   display: flex;
   gap: 24px;
 }
-.header .wrapper .head .nav-page .nav-list .nav-item a:hover {
+.header .head .wrapper .nav-page .nav-list .nav-item a:hover {
   color: #fff;
 }
-.header .wrapper .head .search .search-input {
+.header .head .wrapper .search .search-input {
   color: #757575;
   background-color: #3c3b3d;
   width: 248px;
   padding: 5px 0 5px 10px;
   border-radius: 50px;
 }
-.header .wrapper .description {
+.header .description {
   padding: 200px 0;
+}
+.header .description .wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.header .wrapper .description .description-hello {
+.header .description .wrapper .description-hello {
   text-align: center;
 }
-.header .wrapper .description .description-hello .subtitle {
+.header .description .wrapper .description-hello .subtitle {
   margin-bottom: 31px;
 }
-.header .wrapper .description .description-hello .description-hello-text {
+.header .description .wrapper .description-hello .description-hello-text {
   margin-bottom: 17px;
 }
-.header .wrapper .description .description-form {
+.header .description .wrapper .description-form {
   max-width: 570px;
 }
-.header .wrapper .description .description-form .case {
+.header .description .wrapper .description-form .case {
   margin-bottom: 24px;
   display: flex;
   gap: 24px;
 }
-.header .wrapper .description .description-form .case .description-input {
+.header .description .wrapper .description-form .case .description-input {
   min-width: 270px;
   min-height: 50px;
   padding-left: 22.24px;
@@ -294,66 +300,67 @@ h4 {
   line-height: 16px;
   font-weight: 700;
 }
-.header .wrapper .description .description-form .case .description-input::-webkit-input-placeholder {
+.header .description .wrapper .description-form .case .description-input::-webkit-input-placeholder {
   color: #fff;
 }
-.header .wrapper .description .description-form .case .description-input:-moz-placeholder {
+.header .description .wrapper .description-form .case .description-input:-moz-placeholder {
   color: #fff;
 }
-.header .wrapper .description .description-form .case .description-input::-moz-placeholder {
+.header .description .wrapper .description-form .case .description-input::-moz-placeholder {
   color: #fff;
 }
-.header .wrapper .description .description-form .case .description-input:-ms-input-placeholder {
+.header .description .wrapper .description-form .case .description-input:-ms-input-placeholder {
   color: #fff;
 }
-.header .wrapper .description .description-form .description-btn {
+.header .description .wrapper .description-form .description-btn {
   width: 100%;
   background-color: #34c176;
 }
 
 @media (max-width: 1239.98px) {
-  .header .wrapper .head {
+  .header .head .wrapper {
+    display: block;
+    width: 100%;
+  }
+  .header .head .wrapper .nav-page {
     display: block;
   }
-  .header .wrapper .head .nav-page {
-    display: block;
-  }
-  .header .wrapper .head .nav-page .logo {
+  .header .head .wrapper .nav-page .logo {
     margin-bottom: 17px;
   }
-  .header .wrapper .head .nav-page .logo .logo-name {
+  .header .head .wrapper .nav-page .logo .logo-name {
     margin-right: 0px;
   }
-  .header .wrapper .head .nav-page .nav-list {
+  .header .head .wrapper .nav-page .nav-list {
     margin-bottom: 16px;
     flex-direction: column;
     gap: 0px;
     line-height: 0;
   }
-  .header .wrapper .head .nav-page .nav-list .nav-item a {
+  .header .head .wrapper .nav-page .nav-list .nav-item a {
     font-weight: 700;
   }
-  .header .wrapper .head .search .search-input {
+  .header .head .wrapper .search .search-input {
     width: 100%;
   }
-  .header .wrapper .description {
+  .header .description {
     width: 100%;
     padding: 250px 0 200px 0;
   }
-  .header .wrapper .description .description-hello .subtitle {
+  .header .description .wrapper .description-hello .subtitle {
     margin-bottom: 16px;
   }
-  .header .wrapper .description .description-form {
+  .header .description .wrapper .description-form {
     max-width: 100%;
     width: 100%;
   }
-  .header .wrapper .description .description-form .case {
+  .header .description .wrapper .description-form .case {
     flex-direction: column;
   }
-  .header .wrapper .description .description-form .case .description-input {
+  .header .description .wrapper .description-form .case .description-input {
     width: 100%;
   }
-  .header .wrapper .description .description-form .description-btn {
+  .header .description .wrapper .description-form .description-btn {
     width: 100%;
   }
 }

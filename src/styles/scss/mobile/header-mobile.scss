@@ -1,9 +1,10 @@
 @media (max-width: 1239.98px) {
   .header {
-    .wrapper {
+    .head {
 
-      .head {
+      .wrapper {
         display: block;
+        width: 100%;
 
         .nav-page {
           display: block;
@@ -37,11 +38,13 @@
           }
         }
       }
+    }
 
-      .description {
-        width: 100%;
-        padding: 250px 0 200px 0;
+    .description {
+      width: 100%;
+      padding: 250px 0 200px 0;
 
+      .wrapper {
         .description-hello {
           .subtitle {
             margin-bottom: 16px;
