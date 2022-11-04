@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Music Box Yaroslavskiba</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Music Box Yaroslavskiba</title>
 
-    <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
 
+<body>
+  <header class="header">
+    <div class="wrapper">
+
+      <div class="head">
+
+        <nav class="nav-page">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo" class="logo-icon">
+            <p class="logo-name color-white tx-nav tx-up">Music Box</p>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item"><a class="tx-nav tx-up color-white" href="#">Главная</a></li>
+            <li class="nav-item"><a class="tx-nav tx-up" href="#">Каталог</a></li>
+            <li class="nav-item"><a class="tx-nav tx-up" href="#">Исполнители</a></li>
+            <li class="nav-item"><a class="tx-nav tx-up" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <form class="search">
+          <input type="text" name="search-input-name" class="search-input tx-up tx-form" placeholder="ПОИСК...">
+        </form>
+
+      </div>
+
+      <section class="description" id="page-description">
+
+        <div class="description-hello">
+          <h1 class="title color-white tx-up">Онлайн музыка где угодно</h1>
+          <h2 class="subtitle color-white tx-up">без ограничений</h2>
+          <p class="description-hello-text color-white tx-1">
+            Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки
+          </p>
+        </div>
+
+        <form class="description-form">
+          <div class="case">
+            <input type="text" class="description-input form-border tx" name="description-input" placeholder="Имя">
+            <input type="text" class="description-input form-border" name="description-input" placeholder="Email">
+          </div>
+          <button class="description-btn btn color-white tx-form tx-up" type="submit">Получить доступ</button>
+        </form>
+
+      </section>
+    </div>
+  </header>
 </body>
+
 </html>

@@ -1,0 +1,120 @@
+.header {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+
+  .wrapper {
+    position: relative;
+
+    .head {
+      width: calc(100% - 40px);
+      height: 25px;
+
+      position: absolute;
+      top: 25px;
+
+      @include flex-align-center;
+      justify-content: space-between;
+
+      .nav-page {
+        @include flex-align-center;
+
+        .logo {
+          @include flex-align-center;
+
+          .logo-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 16px;
+          }
+
+          .logo-name {
+            margin-right: 90px;
+          }
+        }
+
+        .nav-list {
+          display: flex;
+          gap: 24px;
+
+          .nav-item {
+
+            a:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+
+      .search {
+
+        .search-input {
+          color: $search;
+          background-color: $dark;
+          width: 248px;
+          padding: 5px 0 5px 10px;
+          border-radius: 50px;
+        }
+      }
+    }
+
+    .description {
+
+      padding: 200px 0;
+      @include flex-align-center;
+      flex-direction: column;
+
+      .description-hello {
+        text-align: center;
+
+        .subtitle {
+          margin-bottom: 31px;
+        }
+
+        .description-hello-text {
+          margin-bottom: 17px;
+        }
+      }
+
+      .description-form {
+        max-width: 570px;
+
+        .case {
+          margin-bottom: 24px;
+          display: flex;
+          gap: 24px;
+
+          .description-input {
+            min-width: 270px;
+            min-height: 50px;
+            padding-left: 22.24px;
+
+            color: $white;
+            @include text (14px, 16px, 700);
+
+            &::-webkit-input-placeholder {
+              color: $white;
+            }
+
+            &:-moz-placeholder {
+              color: $white;
+            }
+
+            &::-moz-placeholder {
+              color: $white;
+            }
+
+            &:-ms-input-placeholder {
+              color: $white;
+            }
+          }
+        }
+
+        .description-btn {
+          width: 100%;
+          background-color: $green;
+        }
+      }
+    }
+  }
+}

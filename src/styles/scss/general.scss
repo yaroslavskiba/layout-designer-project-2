@@ -1,21 +1,48 @@
+@mixin text ($fz, $lh, $fw) {
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+@mixin border {
+  background-color: inherit;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+}
+
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
 body {
   color: $main-txt-color;
-  @include text (1.125rem, 1.5, 400);
+  @include text (18px, 1.5, 400);
   font-family: Roboto, sans-serif;
   background-color: $main-bg-color;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-a,
 a:visited,
-a:hover,
+a:hover {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+a,
 a:active,
 a:focus {
+  padding: 0;
+  margin: 0;
   color: $main-txt-color;
   text-decoration: none;
   outline: none;
@@ -26,10 +53,6 @@ footer,
 header,
 aside {
   display: block;
-}
-
-input::-ms-clear {
-  display: none;
 }
 
 button {
@@ -43,6 +66,8 @@ button::-moz-focus-inner {
 }
 
 ul li {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -50,50 +75,108 @@ img {
   vertical-align: top;
 }
 
-@mixin text ($fz, $lh, $fw) {
-  font-size: $fz;
-  line-height: $lh;
-  font-weight: $fw;
-}
-
-@mixin border {
-  background-color: inherit;
-  border: 0.125rem solid #CACACA;
-  border-radius: 0.1875rem;
-}
-
 h1 {
-  @include text (3.75rem, 5.625rem, 700);
+  @include text (60px, 90px, 700);
 }
 
 h2 {
-  @include text (2.375rem, 3.5625rem, 700);
+  @include text (38px, 57px, 700);
 }
 
 h3 {
-  @include text (1.5rem, 2.8125rem, 400);
+  @include text (24px, 45px, 400);
 }
 
 h4 {
-  @include text (1.125rem, 1.6875rem, 700);
+  @include text (18px, 27px, 700);
 }
 
 @media (max-width: 1239.98px) {
+  .wrapper {
+    max-width: 414px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
   h1 {
-    @include text (1.875rem, 2.8125rem, 700);
+    @include text (30px, 45px, 700);
   }
 
   h2 {
-    @include text (1.125rem, 1.6875rem, 700);
+    @include text (18px, 27px, 700);
   }
 
   h3 {
-    @include text (1rem, 1.5rem, 700);
+    @include text (16px, 24px, 700);
   }
 
   h4 {
-    @include text (1.125rem, 1.5rem, 700);
+    @include text (18px, 24px, 700);
   }
+}
+
+.tx-7 {
+  @include text (64px, 96px, 400);
+}
+
+.tx-6 {
+  @include text (56px, 84px, 400);
+}
+
+.tx-5 {
+  @include text (48px, 72px, 400);
+}
+
+.tx-4 {
+  @include text (40px, 60px, 400);
+}
+
+.tx-3 {
+  @include text (32px, 48px, 400);
+}
+
+.tx-2 {
+  @include text (24px, 36px, 400);
+}
+
+.tx-1 {
+  @include text (16px, 24px, 400);
+}
+
+.tx-form {
+  font-family: Arial, sans-serif;
+  @include text (13.3px, 15px, 400);
+}
+
+.tx-sm {
+  @include text (12.8px, 19px, 400);
+}
+
+.tx-sm-700 {
+  @include text (12.8px, 19px, 700);
+}
+
+.tx-nav {
+  @include text (11px, 16px, 400);
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.color-white {
+  color: $white;
+}
+
+.color-lite {
+  color: $light;
+}
+
+.wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .tx-up {
@@ -104,43 +187,12 @@ h4 {
   text-transform: capitalize;
 }
 
-.tx-7 {
-  @include text (4rem, 6rem, 400);
-}
-
-.tx-6 {
-  @include text (3.5rem, 5.25rem, 400);
-}
-
-.tx-5 {
-  @include text (3rem, 4.5rem, 400);
-}
-
-.tx-4 {
-  @include text (2.5rem, 3.75rem, 400);
-}
-
-.tx-3 {
-  @include text (2rem, 3rem, 400);
-}
-
-.tx-2 {
-  @include text (1.5rem, 2.25rem, 400);
-}
-
-.tx-1 {
-  @include text (1rem, 1.5rem, 400);
-}
-
-.tx-sm {
-  @include text (0.8rem, 1.1875rem, 400);
-}
-
-.tx-sm-700 {
-  @include text (0.8rem, 1.1875rem, 700);
+.form-border {
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+  background-color: inherit;
 }
 
 .btn {
-  border-radius: 0.3125rem;
-  padding: 1.25rem 1.875rem;
+  border-radius: 5px;
 }
