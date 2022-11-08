@@ -10,9 +10,7 @@
     align-items: center;
 
     .wrapper {
-
-      height: 25px;
-
+      max-height: 25px;
       position: absolute;
       top: 25px;
 
@@ -37,8 +35,6 @@
         }
 
         .nav-list {
-          position: relative;
-          top: -3px;
           display: flex;
           gap: 24px;
 

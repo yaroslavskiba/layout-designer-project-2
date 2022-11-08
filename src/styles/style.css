@@ -20,10 +20,6 @@ a:hover {
   text-decoration: none;
 }
 
-input {
-  outline: none;
-}
-
 a,
 a:active,
 a:focus {
@@ -180,7 +176,7 @@ h4 {
 
 .btn {
   border-radius: 5px;
-  padding: 20px 30px;
+  padding: 21px 30px;
 }
 
 .color-white {
@@ -206,13 +202,9 @@ h4 {
 }
 
 .form-border {
-  border: 2px solid #CACACA;
-  border-radius: 3px;
   background-color: inherit;
-}
-
-.btn {
-  border-radius: 5px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
 }
 
 .header {
@@ -227,7 +219,7 @@ h4 {
   align-items: center;
 }
 .header .head .wrapper {
-  height: 25px;
+  max-height: 25px;
   position: absolute;
   top: 25px;
   display: flex;
@@ -251,8 +243,6 @@ h4 {
   margin-right: 90px;
 }
 .header .head .wrapper .nav-page .nav-list {
-  position: relative;
-  top: -3px;
   display: flex;
   gap: 24px;
 }
@@ -332,22 +322,27 @@ h4 {
     margin-right: 0px;
   }
   .header .head .wrapper .nav-page .nav-list {
-    margin-bottom: 16px;
-    flex-direction: column;
-    gap: 0px;
-    line-height: 0;
+    margin-bottom: 15px;
+    display: block;
   }
   .header .head .wrapper .nav-page .nav-list .nav-item a {
     font-weight: 700;
   }
   .header .head .wrapper .search .search-input {
+    padding: 5px 0 5px 10px;
     width: 100%;
   }
   .header .description {
     width: 100%;
-    padding: 250px 0 200px 0;
+    padding: 248px 0 200px 0;
+  }
+  .header .description .wrapper .description-hello {
+    box-sizing: content-box;
   }
   .header .description .wrapper .description-hello .subtitle {
+    margin-bottom: 16px;
+  }
+  .header .description .wrapper .description-hello .description-hello-text {
     margin-bottom: 16px;
   }
   .header .description .wrapper .description-form {

@@ -18,12 +18,11 @@
           }
 
           .nav-list {
-            margin-bottom: 16px;
-            flex-direction: column;
-            gap: 0px;
-            line-height: 0;
+            margin-bottom: 15px;
+            display: block;
 
             .nav-item {
+
               & a {
                 font-weight: 700;
               }
@@ -34,6 +33,7 @@
         .search {
 
           .search-input {
+            padding: 5px 0 5px 10px;
             width: 100%;
           }
         }
@@ -42,11 +42,17 @@
 
     .description {
       width: 100%;
-      padding: 250px 0 200px 0;
+      padding: 248px 0 200px 0;
 
       .wrapper {
         .description-hello {
+          box-sizing: content-box;
+
           .subtitle {
+            margin-bottom: 16px;
+          }
+
+          .description-hello-text {
             margin-bottom: 16px;
           }
         }
