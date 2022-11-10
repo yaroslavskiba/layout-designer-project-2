@@ -523,5 +523,24 @@ h4 {
     background-size: cover;
   }
 }
+@media (max-width: 1239.98px) {
+  .news .wrapper {
+    box-sizing: border-box;
+  }
+  .news .wrapper .news-list .news-item {
+    flex-direction: column;
+  }
+  .news .wrapper .news-list .news-item .news-image {
+    width: 374px;
+    height: 186px;
+  }
+  .news .wrapper .news-list .news-item .news-body .news-head .news-item-title {
+    margin-bottom: 16px;
+    font-weight: 400;
+  }
+  .news .wrapper .news-list .second {
+    flex-direction: column-reverse;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

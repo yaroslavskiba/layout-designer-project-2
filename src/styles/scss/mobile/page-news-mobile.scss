@@ -1,0 +1,35 @@
+@media (max-width: 1239.98px) {
+  .news {
+
+    .wrapper {
+      box-sizing: border-box;
+
+      .news-list {
+
+        .news-item {
+          flex-direction: column;
+
+          .news-image {
+            width: 374px;
+            height: 186px;
+          }
+
+          .news-body {
+
+            .news-head {
+
+              .news-item-title {
+                margin-bottom: 16px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+
+        .second {
+          flex-direction: column-reverse;
+        }
+      }
+    }
+  }
+}
