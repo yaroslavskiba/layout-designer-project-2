@@ -440,6 +440,7 @@ h4 {
   display: flex;
 }
 .app .wrapper .app-description .app-info {
+  padding-top: 16px;
   flex: 0 0 50%;
   display: flex;
   flex-direction: column;
@@ -574,6 +575,19 @@ h4 {
   }
   .news .wrapper .news-list .second {
     flex-direction: column;
+  }
+}
+@media (max-width: 1239.98px) {
+  .app .wrapper {
+    box-sizing: border-box;
+  }
+  .app .wrapper .app-description {
+    flex-direction: column-reverse;
+  }
+  .app .wrapper .app-description .app-info {
+    margin-top: 16px;
+    padding-top: 0;
+    flex: 0 0 auto;
   }
 }
 

@@ -1,0 +1,18 @@
+@media (max-width: 1239.98px) {
+  .app {
+
+    .wrapper {
+      box-sizing: border-box;
+
+      .app-description {
+        flex-direction: column-reverse;
+
+        .app-info {
+          margin-top: 16px;
+          padding-top: 0;
+          flex: 0 0 auto;
+        }
+      }
+    }
+  }
+}
