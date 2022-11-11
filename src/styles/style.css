@@ -427,6 +427,40 @@ h4 {
   flex-direction: row-reverse;
 }
 
+.app .wrapper {
+  box-sizing: content-box;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.app .wrapper .app-title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+.app .wrapper .app-description {
+  display: flex;
+}
+.app .wrapper .app-description .app-info {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.app .wrapper .app-description .app-info .app-button {
+  background-color: #95390c;
+  border-radius: 32px;
+  width: 131px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app .wrapper .app-description .app-image {
+  flex: 0 1 50%;
+  margin: 0 auto;
+  max-width: 333px;
+  height: 278px;
+}
+
 @media (max-width: 1239.98px) {
   .header .head .wrapper {
     display: block;

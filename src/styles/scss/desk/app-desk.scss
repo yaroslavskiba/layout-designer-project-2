@@ -1,0 +1,43 @@
+.app {
+
+  .wrapper {
+    box-sizing: content-box;
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    .app-title {
+      margin-bottom: 48px;
+      text-align: center;
+    }
+
+    .app-description {
+      display: flex;
+
+      .app-info {
+        flex: 0 0 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .app-text {}
+
+        .app-button {
+          background-color: $broun;
+          border-radius: 32px;
+          width: 131px;
+          height: 53px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .app-image {
+        flex: 0 1 50%;
+        margin: 0 auto;
+        max-width: 333px;
+        height: 278px;
+      }
+    }
+  }
+}
