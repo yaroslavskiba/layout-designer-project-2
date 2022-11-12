@@ -639,5 +639,21 @@ h4 {
     flex: 0 0 auto;
   }
 }
+@media (max-width: 1239.98px) {
+  .footer .wrapper {
+    box-sizing: border-box;
+  }
+  .footer .wrapper .footer-info {
+    flex-direction: column;
+    gap: 30px;
+    padding: 62px 0 72px 0;
+  }
+  .footer .wrapper .footer-info .footer-info-item {
+    width: 100%;
+  }
+  .footer .wrapper .footer-low-menu .footer-low-menu-list {
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
