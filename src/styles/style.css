@@ -492,7 +492,7 @@ h4 {
   margin-right: 23px;
 }
 .footer .wrapper .footer-low-menu {
-  padding: 40px 0 50px 0;
+  padding: 40px 0 50px;
 }
 .footer .wrapper .footer-low-menu .footer-low-menu-list {
   display: flex;
@@ -650,6 +650,9 @@ h4 {
   }
   .footer .wrapper .footer-info .footer-info-item {
     width: 100%;
+  }
+  .footer .wrapper .footer-info .footer-info-item .fotter-info-item-list {
+    margin-top: 16px;
   }
   .footer .wrapper .footer-low-menu .footer-low-menu-list {
     flex-direction: column;
