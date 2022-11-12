@@ -476,7 +476,7 @@ h4 {
 .footer .wrapper .footer-info {
   display: flex;
   gap: 40px;
-  padding: 48px 0;
+  padding: 62px 0 72px 0;
 }
 .footer .wrapper .footer-info .footer-info-item {
   width: 270px;
@@ -492,7 +492,7 @@ h4 {
   margin-right: 23px;
 }
 .footer .wrapper .footer-low-menu {
-  padding: 32px 0;
+  padding: 40px 0 50px 0;
 }
 .footer .wrapper .footer-low-menu .footer-low-menu-list {
   display: flex;
