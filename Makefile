@@ -8,7 +8,7 @@ lint-html:
 	npx htmlhint ./src/*.html
 
 lint-sass:
-	npx stylelint ./src/styles/scss/app.scss --fix
+	npx stylelint ./src/styles/scss/style.scss --fix
 	npx stylelint ./src/styles/scss/general.scss --fix
 	npx stylelint ./src/styles/scss/variables.scss --fix
 	npx stylelint ./src/styles/scss/desk/header-desk.scss --fix
