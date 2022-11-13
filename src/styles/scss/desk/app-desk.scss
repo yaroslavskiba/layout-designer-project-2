@@ -1,12 +1,12 @@
 .app {
-
   .wrapper {
     box-sizing: content-box;
-    padding-top: 100px;
     margin-bottom: 100px;
+    padding-top: 100px;
 
     .app-title {
       margin-bottom: 48px;
+
       text-align: center;
     }
 
@@ -14,28 +14,29 @@
       display: flex;
 
       .app-info {
-        padding-top: 16px;
-        flex: 0 0 50%;
         display: flex;
+        flex: 0 0 50%;
         flex-direction: column;
         gap: 16px;
+        padding-top: 16px;
 
         .app-button {
-          background-color: $broun;
-          border-radius: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           width: 131px;
           height: 53px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+
+          background-color: $broun;
+          border-radius: 32px;
         }
       }
 
       .app-image {
         flex: 0 1 50%;
-        margin: 0 auto;
         max-width: 333px;
         height: 278px;
+        margin: 0 auto;
       }
     }
   }

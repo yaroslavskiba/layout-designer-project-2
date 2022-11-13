@@ -1,5 +1,4 @@
 .popular {
-
   .wrapper {
     box-sizing: content-box;
     padding-top: 100px;
@@ -16,8 +15,8 @@
         display: flex;
         gap: 15px;
         align-items: center;
-        margin-bottom: 25px;
         margin-right: 50px;
+        margin-bottom: 25px;
 
         &:nth-child(2) {
           margin-right: 0;
@@ -42,10 +41,10 @@
         }
 
         .track-info {
-          width: 480px;
           display: flex;
-          justify-content: space-between;
           align-items: center;
+          justify-content: space-between;
+          width: 480px;
         }
       }
     }

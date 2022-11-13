@@ -1,10 +1,8 @@
 .header {
-
   .artist-description {
-    padding: 250px 0 223px 0;
+    padding: 250px 0 223px;
 
     .wrapper {
-
       .artist-description-hello {
         .artist-description-hello-title {
           margin-bottom: 16px;
@@ -21,14 +19,16 @@
 
         .artist-description-btn {
           width: 200px;
+
           text-align: left;
         }
 
         .icon {
-          filter: invert(1);
-          margin-right: 16px;
           width: 20px;
           height: 20px;
+          margin-right: 16px;
+
+          filter: invert(1);
         }
       }
     }

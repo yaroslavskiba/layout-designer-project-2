@@ -1,13 +1,12 @@
 @media (max-width: 1239.98px) {
   .footer {
-
     .wrapper {
       box-sizing: border-box;
 
       .footer-info {
         flex-direction: column;
         gap: 30px;
-        padding: 62px 0 72px 0;
+        padding: 62px 0 72px;
 
         .footer-info-item {
           width: 100%;
@@ -16,11 +15,9 @@
             margin-top: 16px;
           }
         }
-
       }
 
       .footer-low-menu {
-
         .footer-low-menu-list {
           flex-direction: column;
         }

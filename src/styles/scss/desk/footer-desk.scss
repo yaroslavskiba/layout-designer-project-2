@@ -1,5 +1,6 @@
 .footer {
   position: relative;
+
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
   .wrapper {
@@ -8,7 +9,7 @@
     .footer-info {
       display: flex;
       gap: 40px;
-      padding: 62px 0 72px 0;
+      padding: 62px 0 72px;
 
       .footer-info-item {
         width: 270px;
@@ -20,7 +21,6 @@
     }
 
     .footer-info-item-social {
-
       .fotter-info-item-social-list {
         margin-top: 20px;
 
@@ -43,11 +43,12 @@
 }
 
 .fotter-info-item-title {
-  @include text (18px, 27px, 700)
-}
+  @include text (18px, 27px, 700); }
 
 .line {
   position: relative;
+
   width: 100vw;
-  border: 1px solid #CACACA;
+
+  border: 1px solid #cacaca;
 }

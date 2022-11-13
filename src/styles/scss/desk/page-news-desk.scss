@@ -1,12 +1,12 @@
 .news {
-
   .wrapper {
     box-sizing: content-box;
     padding-top: 100px;
 
     .subscription-title {
-      text-align: center;
       margin-bottom: 48px;
+
+      text-align: center;
     }
 
     .news-list {
@@ -24,9 +24,7 @@
         }
 
         .news-body {
-
           .news-head {
-
             .news-item-title {
               margin-bottom: 30px;
             }
@@ -37,7 +35,6 @@
           }
 
           .news-footer {
-
             .news-author {
               display: flex;
               gap: 16px;
@@ -51,9 +48,11 @@
             }
 
             .news-button {
-              border: 1px solid $main-txt-color;
-              color: $main-txt-color;
               padding: 16px 30px;
+
+              color: $main-txt-color;
+
+              border: 1px solid $main-txt-color;
               border-radius: 5px;
             }
           }

@@ -1,7 +1,6 @@
 @media (max-width: 1239.98px) {
   .header {
     .head {
-
       .wrapper {
         display: block;
         width: 100%;
@@ -13,16 +12,15 @@
             margin-bottom: 17px;
 
             .logo-name {
-              margin-right: 0px;
+              margin-right: 0;
             }
           }
 
           .nav-list {
-            margin-bottom: 15px;
             display: block;
+            margin-bottom: 15px;
 
             .nav-item {
-
               & a {
                 font-weight: 700;
               }
@@ -31,10 +29,9 @@
         }
 
         .search {
-
           .search-input {
-            padding: 5px 0 5px 10px;
             width: 100%;
+            padding: 5px 0 5px 10px;
           }
         }
       }
@@ -42,7 +39,7 @@
 
     .description {
       width: 100%;
-      padding: 248px 0 200px 0;
+      padding: 248px 0 200px;
 
       .wrapper {
         .description-hello {
@@ -58,8 +55,8 @@
         }
 
         .description-form {
-          max-width: 100%;
           width: 100%;
+          max-width: 100%;
 
           .case {
             flex-direction: column;

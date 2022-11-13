@@ -1,7 +1,7 @@
-@mixin text ($fz, $lh, $fw) {
+@mixin text($fz, $lh, $fw) {
+  font-weight: $fw;
   font-size: $fz;
   line-height: $lh;
-  font-weight: $fw;
 }
 
 @mixin border {
@@ -17,8 +17,10 @@
 
 body {
   color: $main-txt-color;
+
   @include text (18px, 1.5, 400);
   font-family: Roboto, sans-serif;
+
   background-color: $main-bg-color;
 }
 
@@ -26,22 +28,25 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
-}
 
-a:visited,
-a:hover {
-  text-decoration: none;
+  border: 0;
 }
 
 a,
 a:active,
 a:focus {
-  padding: 0;
   margin: 0;
+  padding: 0;
+
   color: $main-txt-color;
   text-decoration: none;
+
   outline: none;
+}
+
+a:visited,
+a:hover {
+  text-decoration: none;
 }
 
 nav,
@@ -62,8 +67,9 @@ button::-moz-focus-inner {
 }
 
 ul li {
-  padding: 0;
   margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -90,8 +96,8 @@ h4 {
 @media (max-width: 1239.98px) {
   .wrapper {
     max-width: 414px;
-    padding: 0 20px;
     margin: 0 auto;
+    padding: 0 20px;
   }
 
   h1 {
@@ -137,6 +143,7 @@ h4 {
 
 .tx-form {
   font-family: Arial, sans-serif;
+
   @include text (13.3px, 15px, 400);
 }
 
@@ -153,12 +160,13 @@ h4 {
 }
 
 .tx-author-name {
-  @include text (12px, 19px, 400)
+  @include text (12px, 19px, 400);
 }
 
 .btn {
-  border-radius: 5px;
   padding: 21px 30px;
+
+  border-radius: 5px;
 }
 
 .color-white {
@@ -186,9 +194,9 @@ h4 {
 }
 
 .wrapper {
-  padding: 0 20px;
-  margin: 0 auto;
   width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .tx-up {
@@ -204,13 +212,13 @@ h4 {
 }
 
 .main-bg {
-  background-image: url('../images/banner.png');
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
 .artist-bg {
-  background-image: url('../images/Morten\ Harket.png');
+  background-image: url("../images/Morten\ Harket.png");
   background-position: center;
   background-size: cover;
 }

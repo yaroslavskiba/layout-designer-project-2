@@ -1,6 +1,5 @@
 @media (max-width: 1239.98px) {
   .app {
-
     .wrapper {
       box-sizing: border-box;
 
@@ -8,9 +7,9 @@
         flex-direction: column-reverse;
 
         .app-info {
+          flex: 0 0 auto;
           margin-top: 16px;
           padding-top: 0;
-          flex: 0 0 auto;
         }
       }
     }

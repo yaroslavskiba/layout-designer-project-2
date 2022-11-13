@@ -1,15 +1,13 @@
 @media (max-width: 1239.98px) {
   .discography {
-
     .wrapper {
       box-sizing: border-box;
 
       .discography-list {
-
         .discography-item {
           max-width: 137px;
-          margin-bottom: 25px;
           margin-right: 50px;
+          margin-bottom: 25px;
 
           &:nth-child(2) {
             margin-right: 0;
