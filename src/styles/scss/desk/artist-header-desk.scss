@@ -1,31 +1,31 @@
-.artist-description {
-  padding: 200px 0;
+.header {
 
-  .wrapper {
+  .artist-description {
+    padding: 200px 0;
 
-    .artist-description-hello {
+    .wrapper {
 
-      .artist-description-title {}
-
-      .artist-description-hello-text {
-        margin-bottom: 48px;
-      }
-    }
-
-    .artist-description-buttons {
-      display: flex;
-      gap: 24px;
-
-      .artist-description-btn {
-        width: 200px;
-        text-align: left;
+      .artist-description-hello {
+        .artist-description-hello-text {
+          margin-bottom: 48px;
+        }
       }
 
-      .icon {
-        filter: invert(1);
-        margin-right: 16px;
-        width: 20px;
-        height: 20px;
+      .artist-description-buttons {
+        display: flex;
+        gap: 24px;
+
+        .artist-description-btn {
+          width: 200px;
+          text-align: left;
+        }
+
+        .icon {
+          filter: invert(1);
+          margin-right: 16px;
+          width: 20px;
+          height: 20px;
+        }
       }
     }
   }

@@ -673,21 +673,21 @@ h4 {
     flex-direction: column;
   }
 }
-.artist-description {
+.header .artist-description {
   padding: 200px 0;
 }
-.artist-description .wrapper .artist-description-hello .artist-description-hello-text {
+.header .artist-description .wrapper .artist-description-hello .artist-description-hello-text {
   margin-bottom: 48px;
 }
-.artist-description .wrapper .artist-description-buttons {
+.header .artist-description .wrapper .artist-description-buttons {
   display: flex;
   gap: 24px;
 }
-.artist-description .wrapper .artist-description-buttons .artist-description-btn {
+.header .artist-description .wrapper .artist-description-buttons .artist-description-btn {
   width: 200px;
   text-align: left;
 }
-.artist-description .wrapper .artist-description-buttons .icon {
+.header .artist-description .wrapper .artist-description-buttons .icon {
   filter: invert(1);
   margin-right: 16px;
   width: 20px;
@@ -695,23 +695,8 @@ h4 {
 }
 
 @media (max-width: 1239.98px) {
-  .artist-description {
-    padding: 250px 0 200px;
-  }
-  .artist-description .wrapper .artist-description-buttons {
-    display: flex;
+  .header .artist-description .wrapper .artist-description-buttons {
     flex-direction: column;
-    gap: 24px;
-  }
-  .artist-description .wrapper .artist-description-buttons .artist-description-btn {
-    width: 200px;
-    text-align: left;
-  }
-  .artist-description .wrapper .artist-description-buttons .icon {
-    filter: invert(1);
-    margin-right: 16px;
-    width: 20px;
-    height: 20px;
   }
 }
 
