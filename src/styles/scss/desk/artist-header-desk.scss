@@ -1,11 +1,15 @@
 .header {
 
   .artist-description {
-    padding: 200px 0;
+    padding: 250px 0 223px 0;
 
     .wrapper {
 
       .artist-description-hello {
+        .artist-description-hello-title {
+          margin-bottom: 16px;
+        }
+
         .artist-description-hello-text {
           margin-bottom: 48px;
         }
