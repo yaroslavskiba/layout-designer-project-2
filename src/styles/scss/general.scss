@@ -177,6 +177,14 @@ h4 {
   color: $orange;
 }
 
+.bg-purple {
+  background-color: $purple;
+}
+
+.bg-broun {
+  background-color: $broun;
+}
+
 .color-main {
   color: black;
 }
@@ -197,4 +205,16 @@ h4 {
 
 .form-border {
   @include border;
+}
+
+.main-bg {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-bg {
+  background-image: url('../images/Morten\ Harket.png');
+  background-position: center;
+  background-size: cover;
 }

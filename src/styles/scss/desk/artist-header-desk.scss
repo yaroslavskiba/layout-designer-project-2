@@ -1,0 +1,32 @@
+.artist-description {
+  padding: 200px 0;
+
+  .wrapper {
+
+    .artist-description-hello {
+
+      .artist-description-title {}
+
+      .artist-description-hello-text {
+        margin-bottom: 48px;
+      }
+    }
+
+    .artist-description-buttons {
+      display: flex;
+      gap: 24px;
+
+      .artist-description-btn {
+        width: 200px;
+        text-align: left;
+      }
+
+      .icon {
+        filter: invert(1);
+        margin-right: 16px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
