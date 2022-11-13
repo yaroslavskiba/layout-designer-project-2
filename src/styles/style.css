@@ -101,11 +101,6 @@ h4 {
     line-height: 24px;
     font-weight: 700;
   }
-  h4 {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 700;
-  }
 }
 .tx-7 {
   font-size: 64px;
@@ -739,6 +734,39 @@ h4 {
   align-items: center;
 }
 
+.discography .wrapper {
+  box-sizing: content-box;
+  padding-top: 100px;
+}
+.discography .wrapper .discography-title {
+  margin-bottom: 48px;
+}
+.discography .wrapper .discography-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.discography .wrapper .discography-list .discography-item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+}
+.discography .wrapper .discography-list .discography-item:nth-child(4) {
+  margin-right: 0;
+}
+.discography .wrapper .discography-list .discography-item:nth-child(5) {
+  margin-bottom: 0;
+}
+.discography .wrapper .discography-list .discography-item:nth-child(6) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.discography .wrapper .discography-list .discography-item .discography-item-image {
+  width: 250px;
+  height: 250px;
+}
+
 @media (max-width: 1239.98px) {
   .header .artist-description {
     padding: 225px 0;
@@ -771,6 +799,33 @@ h4 {
   }
   .popular .wrapper .popular-list .popular-track .track-info {
     width: 100%;
+  }
+}
+@media (max-width: 1239.98px) {
+  .discography .wrapper {
+    box-sizing: border-box;
+  }
+  .discography .wrapper .discography-list .discography-item {
+    max-width: 137px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+  }
+  .discography .wrapper .discography-list .discography-item:nth-child(2) {
+    margin-right: 0;
+  }
+  .discography .wrapper .discography-list .discography-item:nth-child(4) {
+    margin-right: 0;
+  }
+  .discography .wrapper .discography-list .discography-item:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .discography .wrapper .discography-list .discography-item:nth-child(6) {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .discography .wrapper .discography-list .discography-item .discography-item-image {
+    width: 137px;
+    height: 137px;
   }
 }
 

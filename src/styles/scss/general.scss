@@ -105,10 +105,6 @@ h4 {
   h3 {
     @include text (16px, 24px, 700);
   }
-
-  h4 {
-    @include text (18px, 24px, 700);
-  }
 }
 
 .tx-7 {

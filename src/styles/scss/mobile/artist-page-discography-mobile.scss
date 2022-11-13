@@ -1,0 +1,39 @@
+@media (max-width: 1239.98px) {
+  .discography {
+
+    .wrapper {
+      box-sizing: border-box;
+
+      .discography-list {
+
+        .discography-item {
+          max-width: 137px;
+          margin-bottom: 25px;
+          margin-right: 50px;
+
+          &:nth-child(2) {
+            margin-right: 0;
+          }
+
+          &:nth-child(4) {
+            margin-right: 0;
+          }
+
+          &:nth-child(5) {
+            margin-bottom: 0;
+          }
+
+          &:nth-child(6) {
+            margin-right: 0;
+            margin-bottom: 0;
+          }
+
+          .discography-item-image {
+            width: 137px;
+            height: 137px;
+          }
+        }
+      }
+    }
+  }
+}
