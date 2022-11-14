@@ -2,7 +2,7 @@ install:
 	npm install
 
 compil:
-	sass src/styles/scss/app.scss src/styles/style.css
+	sass src/styles/scss/style.scss src/styles/style.css
 	
 lint-html:
 	npx htmlhint ./src/*.html

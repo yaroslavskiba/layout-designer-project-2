@@ -1,15 +1,4 @@
 {
-  "name": "yaroslavskiba-music-box",
-  "version": "1.0.0",
-  "description": "yaroslavskiba's Music Box",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
-  },
-  "scripts": {
-    "postinstall": "npm run build",
-    "build": "sass --style=compressed src/scss/style.scss src/css/style.css"
-  },
   "devDependencies": {
     "htmlhint": "^1.1.0",
     "stylelint": "^14.2.0",
@@ -19,6 +8,5 @@
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.1.0",
     "surge": "^0.23.1"
-  },
-  "license": "ISC"
+  }
 }
