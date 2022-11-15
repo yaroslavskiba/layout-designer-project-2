@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "sass --style=compressed src/scss/style.scss src/style.css"
+  },
   "devDependencies": {
     "htmlhint": "^1.1.0",
     "stylelint": "^14.2.0",
