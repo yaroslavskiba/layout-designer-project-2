@@ -314,7 +314,12 @@ h4 {
   font-size: 14px;
   line-height: 16px;
 }
-.header .description .wrapper .description-form .case .description-input::placeholder {
+.header
+  .description
+  .wrapper
+  .description-form
+  .case
+  .description-input::placeholder {
   color: #fff;
 }
 .header .description .wrapper .description-form .description-btn {
@@ -346,16 +351,28 @@ h4 {
   text-align: center;
   border-radius: 1rem;
 }
-.subscription .wrapper .subscription-list .subscription-list-item .subscription-list-item-title {
+.subscription
+  .wrapper
+  .subscription-list
+  .subscription-list-item
+  .subscription-list-item-title {
   margin-bottom: 194px;
 }
-.subscription .wrapper .subscription-list .subscription-list-item .pricing-value {
+.subscription
+  .wrapper
+  .subscription-list
+  .subscription-list-item
+  .pricing-value {
   display: flex;
   gap: 16px;
   justify-content: center;
   line-height: 1em;
 }
-.subscription .wrapper .subscription-list .subscription-list-item .subscription-button {
+.subscription
+  .wrapper
+  .subscription-list
+  .subscription-list-item
+  .subscription-button {
   width: 100%;
   margin: 40px 0 64px;
   padding: 20px 0;
@@ -418,7 +435,14 @@ h4 {
   align-items: center;
   margin-bottom: 48px;
 }
-.news .wrapper .news-list .news-item .news-body .news-footer .news-author .news-author-avatar {
+.news
+  .wrapper
+  .news-list
+  .news-item
+  .news-body
+  .news-footer
+  .news-author
+  .news-author-avatar {
   width: 19px;
   height: 19px;
 }
@@ -488,7 +512,11 @@ h4 {
 .footer .wrapper .footer-info-item-social .fotter-info-item-social-list {
   margin-top: 20px;
 }
-.footer .wrapper .footer-info-item-social .fotter-info-item-social-list .footer-info-item-social-link {
+.footer
+  .wrapper
+  .footer-info-item-social
+  .fotter-info-item-social-list
+  .footer-info-item-social-link {
   display: inline-block;
   margin-right: 23px;
 }
@@ -583,7 +611,11 @@ h4 {
     max-height: 595px;
     padding: 16px 24px 64px;
   }
-  .subscription .wrapper .subscription-list .subscription-list-item .subscription-list-item-title {
+  .subscription
+    .wrapper
+    .subscription-list
+    .subscription-list-item
+    .subscription-list-item-title {
     margin-bottom: 200px;
     font-weight: 400;
   }
@@ -662,17 +694,29 @@ h4 {
 .header .artist-description {
   padding: 250px 0 223px;
 }
-.header .artist-description .wrapper .artist-description-hello .artist-description-hello-title {
+.header
+  .artist-description
+  .wrapper
+  .artist-description-hello
+  .artist-description-hello-title {
   margin-bottom: 16px;
 }
-.header .artist-description .wrapper .artist-description-hello .artist-description-hello-text {
+.header
+  .artist-description
+  .wrapper
+  .artist-description-hello
+  .artist-description-hello-text {
   margin-bottom: 48px;
 }
 .header .artist-description .wrapper .artist-description-buttons {
   display: flex;
   gap: 24px;
 }
-.header .artist-description .wrapper .artist-description-buttons .artist-description-btn {
+.header
+  .artist-description
+  .wrapper
+  .artist-description-buttons
+  .artist-description-btn {
   width: 200px;
   text-align: left;
 }
@@ -753,7 +797,11 @@ h4 {
   margin-right: 0;
   margin-bottom: 0;
 }
-.discography .wrapper .discography-list .discography-item .discography-item-image {
+.discography
+  .wrapper
+  .discography-list
+  .discography-item
+  .discography-item-image {
   width: 250px;
   height: 250px;
 }
@@ -856,7 +904,11 @@ h4 {
     margin-right: 0;
     margin-bottom: 0;
   }
-  .discography .wrapper .discography-list .discography-item .discography-item-image {
+  .discography
+    .wrapper
+    .discography-list
+    .discography-item
+    .discography-item-image {
     width: 137px;
     height: 137px;
   }
